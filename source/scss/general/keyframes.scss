@@ -1,0 +1,25 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes leftToRight {
+  from {
+    width: 0;
+  }
+  to {
+    width: calc(100% - 210px);
+  }
+}
+@keyframes bottomToTop {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

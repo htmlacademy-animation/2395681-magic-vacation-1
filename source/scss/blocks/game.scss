@@ -121,3 +121,23 @@
   margin: 0 30px 30px;
   display: block;
 }
+
+.game__body {
+  #message-form {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 100%;
+    }
+    .form__button {
+      flex-grow: 0;
+    }
+  }
+  .chat {
+    .chat__footer {
+      input[type="text"] {
+        animation: 2s leftToRight linear;
+      }
+    }
+  }
+}

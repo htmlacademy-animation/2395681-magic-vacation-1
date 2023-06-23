@@ -162,3 +162,8 @@
     font-size: 48px;
   }
 }
+
+.intro .intro__message {
+  animation-name: fadeIn, bottomToTop;
+  animation-duration: 3s, 3s;
+}
