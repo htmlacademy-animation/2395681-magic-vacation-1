@@ -897,6 +897,14 @@ button.swiper-pagination-bullet {
     width: calc(100% - 210px);
   }
 }
+@keyframes bottomToTop {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 @font-face {
   font-family: "Proxima Nova";
   font-style: normal;
@@ -1931,7 +1939,8 @@ img {
 }
 
 .intro .intro__message {
-  animation: 2s fadeIn ease;
+  animation-name: fadeIn, bottomToTop;
+  animation-duration: 3s, 3s;
 }
 
 .page-header {
@@ -3700,7 +3709,8 @@ img {
   max-width: 34rem;
   font-size: 1.8rem;
   line-height: 2rem;
-  animation: 2s fadeIn ease;
+  animation-name: fadeIn, bottomToTop;
+  animation-duration: 3s, 3s;
 }
 @media (min-width: 2000px) {
   .slider__item-text {
