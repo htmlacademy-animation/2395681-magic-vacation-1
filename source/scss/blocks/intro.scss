@@ -164,5 +164,6 @@
 }
 
 .intro .intro__message {
-  animation: 2s fadeIn ease;
+  animation-name: fadeIn, bottomToTop;
+  animation-duration: 3s, 3s;
 }

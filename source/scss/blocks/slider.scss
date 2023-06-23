@@ -96,7 +96,8 @@
   max-width: 34rem;
   font-size: 1.8rem;
   line-height: 2rem;
-  animation: 2s fadeIn ease;
+  animation-name: fadeIn, bottomToTop;
+  animation-duration: 3s, 3s;
 
   @media (min-width: $stop-scaling) {
     margin-top: 36px;

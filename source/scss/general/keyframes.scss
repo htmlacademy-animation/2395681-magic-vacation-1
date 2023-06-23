@@ -15,3 +15,11 @@
     width: calc(100% - 210px);
   }
 }
+@keyframes bottomToTop {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
